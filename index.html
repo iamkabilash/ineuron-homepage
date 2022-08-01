@@ -10,15 +10,28 @@
 <body>
     <header>
         <nav>
-            <a class="nav-item nav-link" href="#">Courses</a>
+            <a class="nav-item nav-link" href="#" id="course-nav">Courses
+                <!-- <div class="course-container">
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                    <p>course</p>
+                </div> -->
+            </a>
             <a class="nav-item nav-link" href="#">One Neuron</a>
             <a class="nav-item nav-link" href="#">Job Portal</a>
             <a class="nav-item nav-link" href="#">Internship Portal</a>
             <a class="nav-item nav-link" href="#">Hall of Fame</a>
             <a class="nav-item nav-link" href="#">Blog</a>
             <a class="nav-item nav-link" href="#">Hack-A-Thon</a>
-            <a class="nav-item nav-link" href="#"><input type="text" placeholder="Search courses"></a>
-            <a class="nav-item" href="" target="_blank"><button class="btn-primary">Login/Register</button></a>
+            <a class="nav-item nav-link" href="#"><input type="text" placeholder="What are we learning today?"></a>
+            <a class="nav-item" href="" target="_blank"><button class="btn-primary">Login / Register</button></a>
         </nav>
         <div>
             <a href="./index.html"><img src="./assets/ineuron-logo.png" alt="" class="logo"></a>
@@ -35,19 +48,25 @@
                     <div><h2>“Pure Hardwork, No Shortcuts!”</h2></div>
                     <div class="stats">
                         <div class="stat">
-                            <img src="./assets/tech-html.svg" alt="">
-                            <h1>400+</h1>
-                            <h3>Different Courses</h3>
+                            <div><img src="./assets/play-icon.png" alt=""></div>
+                            <div class="stat-text">
+                                <h1>400+</h1>
+                                <h3>Different Courses</h3>
+                            </div>
                         </div>
                         <div class="stat">
-                            <img src="./assets/tech-html.svg" alt="">
-                            <h1>400,000+</h1>
-                            <h3>Students Enrolled</h3>
+                            <div><img src="./assets/play-icon.png" alt=""></div>
+                            <div class="stat-text">
+                                <h1>400,000+</h1>
+                                <h3>Students Enrolled</h3>
+                            </div>
                         </div>
                         <div class="stat">
-                            <img src="./assets/tech-html.svg" alt="">
-                            <h1>10,000+</h1>
-                            <h3>Successful Transition</h3>
+                            <div><img src="./assets/play-icon.png" alt=""></div>
+                            <div class="stat-text">
+                                <h1>10,000+</h1>
+                                <h3>Successful Transition</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,203 +75,118 @@
                 <img class="header-image" src="./assets/Rocket-smooth.gif">
             </div>
         </div>
-        <div class="div-help">
-            <div>
-                <h3>Need help?</h3>
-                <p>Speak to us!</p>
-            </div>
-            <div class="socials">
-                <img src="./assets/support-icon.png" alt="">
-            </div>
-        </div>
+        <div class="blur-blue blur-bg"></div>
+        <div class="blur-green blur-bg"></div>
+        <div class="blur-aqua blur-bg"></div>
     </header>
+    <div class="section-space"></div>
     <section class="section-courses">
         <h2>Featured Courses</h2>
-        <div class="courses">
-            <div class="course course-group">
-                <h3>Our Top Courses</h3>
-                <p>Explore our Top selling courses.</p>
+        <div class="div-courses">
+            <div class="course-arrow" id="left-arrow">
+                <img src="./assets/left-arrow.png" alt="">
             </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
+            <div class="courses-ia" id="course-ia-left">
+                <div class="course-group-ia">
+                    <h3>Our Top Courses</h3>
+                    <p>Explore our Popular courses.</p>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/fsjs.webp" alt="">
+                    <div class="course-text-ia">
+                        <h4>FullStack Javascript Web Developer Bootcamp</h4>
+                        <p>Hitesh Choudhary</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/fsds.jpeg" alt="">
+                    <div class="course-text-ia">
+                        <h4>FullStack Data Science Bootcamp</h4>
+                        <p>Krish Naik</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/62bf3edd6960793aeb3c0dbb.jpg" alt="">
+                    <div class="course-text-ia">
+                        <h4>Job Guarantee Big Data Bootcamp</h4>
+                        <p>Sudhanshu Kumar</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
             </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
+            <div class="courses">
+                <div class="course-group">
+                    <h3>Our Top Courses</h3>
+                    <p>Explore our Popular courses.</p>
+                </div>
+                <div class="course">
+                    <img src="./assets/courses/fsjs.webp" alt="">
+                    <div class="course-text">
+                        <h4>FullStack Javascript Web Developer Bootcamp</h4>
+                        <p>Hitesh Choudhary</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="./assets/courses/fsds.jpeg" alt="">
+                    <div class="course-text">
+                        <h4>FullStack Data Science Bootcamp</h4>
+                        <p>Krish Naik</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="./assets/courses/62bf3edd6960793aeb3c0dbb.jpg" alt="">
+                    <div class="course-text">
+                        <h4>Job Guarantee Big Data Bootcamp</h4>
+                        <p>Sudhanshu Kumar</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
             </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
+            <div class="courses-ia" id="course-ia-right">
+                <div class="course-group-ia">
+                    <h3>Our Top Courses</h3>
+                    <p>Explore our Popular courses.</p>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/fsjs.webp" alt="">
+                    <div class="course-text-ia">
+                        <h4>FullStack Javascript Web Developer Bootcamp</h4>
+                        <p>Hitesh Choudhary</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/fsds.jpeg" alt="">
+                    <div class="course-text-ia">
+                        <h4>FullStack Data Science Bootcamp</h4>
+                        <p>Krish Naik</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
+                <div class="course-ia">
+                    <img src="./assets/courses/62bf3edd6960793aeb3c0dbb.jpg" alt="">
+                    <div class="course-text-ia">
+                        <h4>Job Guarantee Big Data Bootcamp</h4>
+                        <p>Sudhanshu Kumar</p>
+                        <h5>₹17,700</h5>
+                    </div>
+                </div>
             </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-        </div>
-        <div class="courses">
-            <div class="course course-group">
-                <h3>Live Programs</h3>
-                <p>Get your program with live "instructor led" learning.</p>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-        </div>
-        <div class="courses">
-            <div class="course course-group">
-                <h3>Affordable Programs</h3>
-                <p>Find your favourite courses in pocket-friendly ways.</p>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-        </div>
-        <div class="courses">
-            <div class="course course-group">
-                <h3>Community Programs</h3>
-                <p>Open to all pro-live classes on Youtube for free.</p>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-        </div>
-        <div class="courses">
-            <div class="course course-group">
-                <h3>ATest Series</h3>
-                <p>Quiz-based courses to prepare you for interviews.</p>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
-            </div>
-            <div class="course">
-                <img src="" alt="">
-                <h4>Course title</h4>
-                <p>Instructor</p>
-                <h5>Price</h5>
+            <div class="course-arrow" id="right-arrow">
+                <img src="./assets/arrow-right.png" alt="">
             </div>
         </div>
     </section>
+    <div class="section-space"></div>
     <section class="acheivements">
         <div class="placements">
-            <div><h2>Our Achievers Work with</h2></div>
+            <div><h2>Our Achievers Work at</h2></div>
             <div class="place-companies">
+                <div class="place-company"><img src="./assets/placement-companies/affine.png" alt=""></div>
                 <div class="place-company"><img src="./assets/placement-companies/bun&bradstreet.png" alt=""></div>
                 <div class="place-company"><img src="./assets/placement-companies/boeing.png" alt=""></div>
                 <div class="place-company"><img src="./assets/placement-companies/cohesity.png" alt=""></div>
@@ -281,6 +215,164 @@
                 <div class="place-company"><img src="./assets/placement-companies/wipro.png" alt=""></div>
                 <div class="place-company"><img src="./assets/placement-companies/wissen.png" alt=""></div>
                 <div class="place-company"><img src="./assets/placement-companies/zensar.png" alt=""></div>
+                <div class="place-company"><h3>and more...</h3></div>
+            </div>
+        </div>
+        <div class="div-institutions">
+            <div><h2>Our Partnered Institutions</h2></div>
+            <div class="institutions">
+                <div class="institution"><img src="./assets/colleges/gim.svg" alt=""></div>
+                <div class="institution"><img src="./assets/colleges/keit.svg" alt=""></div>
+                <div class="institution"><img src="./assets/colleges/malnad-college.svg" alt=""></div>
+                <div class="institution"><img src="./assets/colleges/taxila.svg" alt=""></div>
+                <div class="institution"><img src="./assets/colleges/vit.svg" alt=""></div>
+                <div class="institution"><h3>and more...</h3></div>
+            </div>
+        </div>
+    </section>
+    <div class="section-space"></div>
+    <section class="team-fame">
+        <div class="team-neuron">
+            <div class="team-intro"><h2>Our Tech Avengers</h2></div>
+            <div class="teams">
+                <div class="team-row">
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/sudhanshu-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Sudhanshu Kumar</h3>
+                            <h4>AI Engineer & CEO</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/hitesh-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Hitesh Choudhary</h3>
+                            <h4>CTO</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/krish-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Krish Naik</h3>
+                            <h4>CIO</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/telusko-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Navin Reddy</h3>
+                            <h4>Senior VP</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-row">
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/amresh-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Amresh Bharti</h3>
+                            <h4>VP Marketing</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/mysirg-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Saurabh Shukla</h3>
+                            <h4>Senior VP</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/saksham-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Saksham Choudhary</h3>
+                            <h4>Cyber Security Lead</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/gaurav-sen-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Gaurav Sen</h3>
+                            <h4>Senior VP</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-row">
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/Souranghsu-Pal.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Souranghsu Pal</h3>
+                            <h4>Mentor</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/sunny-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Sunny Bhaveen Chandra</h3>
+                            <h4>Data Scientist</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/Mukesh-Otwani-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Mukesh Otwani</h3>
+                            <h4>VP Automation</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img"><img src="./assets/team/Kiran-Sahu-square.png" alt=""></div>
+                        <div class="team-text">
+                            <h3>Kiran Sahu</h3>
+                            <h4>Mentor</h4>
+                            <div class="social">
+                                <div><img src="./assets/linkedin.png" alt="linkedin"></div>
+                                <div><img src="./assets/youtube.png" alt="youtube"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="hall-of-fame">
@@ -317,123 +409,89 @@
                     <p>I have enrolled for your ML course two years back , Python you taught in that course was awesome./p>
                 </div>
             </div>
-        </div>
+        </div>    
     </section>
-    <section class="team-ineuron">
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-        <div class="team">
-            <img src="" alt="">
-            <h3>Name</h3>
-            <h4>Title</h4>
-            <div class="social">
-                <div><img src="" alt="linkedin"></div>
-                <div><img src="" alt="youtube"></div>
-            </div>
-        </div>
-    </section>
+    <div class="section-space"></div>
     <footer>
-        <div class="footer-main"></div>
-        <div class="footer-company"></div>
-        <div class="footer-contact"></div>
-        <div class="footer-products"></div>
+        <div class="products">
+            <div class="product">
+                <img src="" alt="">
+                <h3>Job Portal</h3>
+                <p>Use exceptional templates for a stand-out resume minus the sign up process.</p>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <h3>Internship Portal</h3>
+                <p>iNeuron's self-paced internship portal prioritises hands-on training with 570+ internship projects.</p>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <h3>Become an Affiliate</h3>
+                <p>Explore affiliate marketing opportunities with iNeuron and attain financial frredom.</p>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <h3>Hall of Fame</h3>
+                <p>Our student placements and 10+ career transitions speak volumes about our courses.</p>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <h3>InBlog</h3>
+                <p>Explore all you want about your favourite courses.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+                <div class="footer-logo-div">
+                    <img src="" alt="footer-logo">
+                    <img src="" alt="iso-9001">
+                </div>
+                <div class="address">
+                    <img src="" alt="location-icon">
+                    <p class="address-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusantium.</p>
+                </div>
+                <div class="email">
+                    <img src="" alt="email-icon">
+                    <p class="email-text">Email us: contact@ineuron.ai</p>
+                </div>
+            </div>
+            <div class="footer-company">
+                <div class="h2">Company</div>
+                <div class="footer-links">
+                    <a href=""><p>Hack-A-Thon</p></a>
+                    <a href=""><p>Job Guarantee</p></a>
+                    <a href=""><p>Privacy Policy</p></a>
+                    <a href=""><p>Job Assistance</p></a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <div class="h2">Contact</div>
+                <div class="footer-links">
+                    <a href=""><p>FAQs</p></a>
+                    <a href=""><p>About Us</p></a>
+                    <a href=""><p>Contact Us</p></a>
+                    <a href=""><p>Terms and Conditions</p></a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="h2">Follow Us</div>
+                <div class="footer-links">
+                    <a href=""><img src="" alt=""><p>LinkedIn</p></a>
+                    <a href=""><img src="" alt=""><p>YouTube</p></a>
+                    <a href=""><img src="" alt=""><p>Twitter</p></a>
+                    <a href=""><img src="" alt=""><p>Facebook</p></a>
+                </div>
+            </div>
+        </div>
     </footer>
+    <div class="div-help">
+        <div>
+            <h3>Need help?</h3>
+        </div>
+        <div class="support">
+            <p>Speak to us!</p>
+            <img src="./assets/support-icon.png" alt="">
+        </div>
+    </div>
 </body>
 </html>
