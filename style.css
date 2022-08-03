@@ -74,10 +74,9 @@ nav{
     text-decoration: none;
 }
 .nav-link:hover{
-    background: -webkit-linear-gradient(135deg, #0095af, #bb00bb);
+    background: -webkit-linear-gradient(135deg, #0076fc, #dc04dc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 1px solid #0095af;
 }
 .btn-primary{
     width: 140px;
@@ -154,6 +153,9 @@ nav input::placeholder{
     font-weight: 600;
     letter-spacing: 3px;
     margin-top: -7vh;
+    background: -webkit-linear-gradient(45deg, #0080ff, #7c25bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .header-left p{
     font-size: 20px;
@@ -905,7 +907,7 @@ footer{
 }
 .footer-social .footer-links img{
     height: 16px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 .footer-social .footer-links p{
     margin-left: 10px;
@@ -934,4 +936,10 @@ footer p{
 width: 45px;
 height: auto;
 padding-top: 15px;
+}
+h2{
+    color: #07004f;
+}
+h3, h4{
+    color: #0b026c;
 }
