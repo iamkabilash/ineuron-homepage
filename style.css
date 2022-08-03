@@ -63,9 +63,11 @@ header{
 nav{
     float: right;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
 }
-.nav-item{
+.nav-link{
     cursor: pointer;
     color: #000;
     margin-left: 20px;
@@ -78,6 +80,48 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.nav-link:hover{
+    background: -webkit-linear-gradient(135deg, #0076fc, #dc04dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* <------------------------> */
+
+.company-sub {
+    display: none;
+}
+#course-nav:hover .company-sub{
+    display: block;
+    position: absolute;
+    border: 1px solid #0076fc;
+    margin-top: 10px;
+    backdrop-filter: blur(50px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: #e3e3e355;
+    border-radius: 10px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.company-sub > table{
+    border-spacing: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+td{
+    cursor: pointer;
+    padding: 10px;
+}
+td a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+td:hover{
+    background-color: #72c8ed98;
+    border-radius: 5px;
+    font-weight: 700;
+}
 .btn-primary{
     width: 140px;
     height: 33px;
@@ -89,6 +133,8 @@ nav{
     border-radius: 10px;
     cursor: pointer;
     font-weight: 400;
+    margin-left: 30px;
+    margin-top: -0.8vh;
 }
 .btn-primary:hover{
     font-weight: 500;
@@ -103,6 +149,7 @@ nav input{
     border-radius: 5px;
     border: 1px solid #00bcdd;
     color: #000;
+    margin-top: -0.8vh;
 }
 nav input:focus, nav input:active{
     border: 1px solid #00bcdd !important;
@@ -832,8 +879,8 @@ footer{
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
-    background-color: #63dafeac;
-    background: -webkit-linear-gradient(135deg, #2197aca5, #6434b799);
+    background-color: #3b91ceac;
+    background: -webkit-linear-gradient(135deg, #5083d0a5, #4d7bd799);
     align-content: center;
     align-items: center;
     justify-content: center;
