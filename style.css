@@ -176,7 +176,7 @@ nav input::placeholder{
     display: flex;
     flex-direction: column;
     color: var(--black);
-    margin-left: 80px;
+    margin-left: 6vw;
     width: 50vw;
     margin-top: 15vh;
 }
@@ -215,8 +215,8 @@ nav input::placeholder{
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-color: #32c6f3c5;
-    box-shadow:20px 20px 100px 100px #32c6f3c5;
+    background-color: #13c1f6c5;
+    box-shadow:20px 20px 100px 100px #0ca7d6c5;
     opacity: 0.2;
     position: fixed;
     top: 200px;
@@ -226,8 +226,8 @@ nav input::placeholder{
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-color: #44ff9882;
-    box-shadow:10px 10px 100px 100px #44ff9882;
+    background-color: #25d07283;
+    box-shadow:10px 10px 100px 100px #21c06882;
     opacity: 0.3;
     position: fixed;
     bottom: 200px;
@@ -879,8 +879,8 @@ footer{
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
-    background-color: #3b91ceac;
-    background: -webkit-linear-gradient(135deg, #5083d0a5, #4d7bd799);
+    background-color: #348ac8e3;
+    /* background: -webkit-linear-gradient(135deg, #5083d0a5, #4d7bd799); */
     align-content: center;
     align-items: center;
     justify-content: center;
