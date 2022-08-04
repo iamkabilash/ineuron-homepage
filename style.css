@@ -879,8 +879,8 @@ footer{
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
-    background-color: #348ac8e3;
-    /* background: -webkit-linear-gradient(135deg, #5083d0a5, #4d7bd799); */
+    /* background-color: #fd95cee3; */
+    background: -webkit-linear-gradient(90deg, #5a98f6a5, #904dd799);
     align-content: center;
     align-items: center;
     justify-content: center;
